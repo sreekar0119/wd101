@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="box">
+        <div class="design">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="form">
+            <h2>User Registration</h2>
+            <form  id="userForm">
+                <input  type="text" name="Name" id="Name" class="input-field" placeholder="Name" required/>
+                <input type="email" name="username" id="username" class="input-field" placeholder="Email" required/>
+                <input type="password" name="password" id="password" class="input-field" placeholder="Password" required/>
+                <input class="input-field" type="date" id="dob" name="dob" placeholder="Dob" min="" max="" required>
+                <input type="submit" class="btn" value="Submit">
+                <label class="float" for="atnc">Accept terms and conditions : </label>
+                <input class="float" type="checkbox" name="atnc" id="atnc" required>
+            </form>
+        </div>
+        <div class="parts" id="tableView">
+            <h1>Entries</h1>
+                <table class="table">
+                    <tr class="bor">
+                        <th class="bor">Name</th>
+                        <th class="bor">Email</th>
+                        <th class="bor">Password</th>
+                        <th class="bor">Dob</th>
+                        <th class="bor">Accepted terms?</th>
+                    </tr>
+                </table>
+    </section>    
+    <script src="index.js"></script>
+</body>
+</html>
